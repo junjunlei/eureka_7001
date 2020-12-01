@@ -2,7 +2,7 @@ server:
   port: 7001
 eureka:
   instance:
-    hostname: 192.168.160.101
+    hostname: 59.110.164.184
   client:
     register-with-eureka: false #不自己注册自己
     fetch-registry: false #表示自己是注册中心，维护服务，不检索服务
